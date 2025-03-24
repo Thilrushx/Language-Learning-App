@@ -1,4 +1,11 @@
-How to Use this Project,
+<h3>How to Use this Project,</h3>
+
+Clone or download repo shuold be installed in your PC.
+
+Open terminal or any code editor run these commands,
+
+
+
 
 
 
