@@ -8,11 +8,11 @@ use Illuminate\Database\Eloquent\Model;
 class Language extends Model
 {
     use HasFactory; 
-protected $fillable = [ 
-'Language', 
-'Country', 
-'info', 
-'age' 
-]; 
+protected $fillable = [
+    'language',
+    'country',
+    'info',
+    'age',
+];
 }
 ?>

@@ -13,9 +13,9 @@ return new class extends Migration
     {
         Schema::create('languages', function (Blueprint $table) {
             $table->id();
-            $table->string('Language')->nullable(); 
-            $table->string('Country')->nullable(); 
-            $table->string('info')->nullable(); 
+            $table->string('language')->nullable();
+            $table->string('country')->nullable();
+            $table->string('info')->nullable();
             $table->integer('age')->nullable();
             $table->timestamps();
         });

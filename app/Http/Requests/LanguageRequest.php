@@ -11,7 +11,7 @@ class LanguageRequest extends FormRequest
      */
     public function authorize(): bool
     {
-        return false;
+        return true;
     }
 
     /**
@@ -22,10 +22,10 @@ class LanguageRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'language'=>'required|string',
-            'Country'=>'required|string',
-            'info'=>'required|string',
-            'age'=>'numeric'
+            'language' => 'required|string|max:255',
+            'country'  => 'required|string|max:255',
+            'info'     => 'required|string',
+            'age'      => 'nullable|numeric|min:0',
         ];
     }
 }
